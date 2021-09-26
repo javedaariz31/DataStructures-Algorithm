@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewPrepC-Sharp", "InterviewPrepC-Sharp.csproj", "{6626223B-8D1D-4628-8742-6C554F128002}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9D8382E1-D45C-4BE7-8C58-8DB6C4BDD39C} = {9D8382E1-D45C-4BE7-8C58-8DB6C4BDD39C}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.Problems.Solution", "..\LeetCode.Problems.Solution\LeetCode.Problems.Solution.csproj", "{9D8382E1-D45C-4BE7-8C58-8DB6C4BDD39C}"
 EndProject
